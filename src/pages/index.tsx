@@ -1,12 +1,7 @@
-import SimpleThreeColumns from '@/components/Features'
-import BouttonComponents from '@/components/boutton'
-import StatChakra from '@/components/chakra'
+
 import LargeWithLogoLeft from '@/components/footer'
-import LargeWithAppLinksAndSocial from '@/components/footer'
 import SplitScreen from '@/components/header'
-import InputComponents from '@/components/input'
 import WithSubnavigation from '@/components/navbar'
-import CallToActionWithAnnotation from '@/components/template-chakra'
 import Head from 'next/head'
 
 export default function Home() {
@@ -25,8 +20,7 @@ export default function Home() {
 
       <SplitScreen/>
 
-      <SimpleThreeColumns/>
-
+  
       <LargeWithLogoLeft/>
 
       </main>
